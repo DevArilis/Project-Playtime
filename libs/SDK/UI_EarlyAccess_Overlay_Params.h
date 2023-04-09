@@ -1,0 +1,40 @@
+﻿#pragma once
+
+/**
+ * Name: Project_Playtime
+ * Version: 4_7_23_Hotfix
+ */
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+	// --------------------------------------------------
+	// # Structs
+	// --------------------------------------------------
+	/**
+	 * Function UI_EarlyAccess_Overlay.UI_EarlyAccess_Overlay_C.PreConstruct
+	 */
+	struct UUI_EarlyAccess_Overlay_C_PreConstruct_Params
+	{
+	public:
+		bool                                                       IsDesignTime;                                            // 0x0000(0x0001)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+	};
+
+	/**
+	 * Function UI_EarlyAccess_Overlay.UI_EarlyAccess_Overlay_C.ExecuteUbergraph_UI_EarlyAccess_Overlay
+	 */
+	struct UUI_EarlyAccess_Overlay_C_ExecuteUbergraph_UI_EarlyAccess_Overlay_Params
+	{
+	public:
+		int32_t                                                    EntryPoint;                                              // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+		unsigned char                                              UnknownData_TSPS[0x4];                                   // 0x0004(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+	};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
